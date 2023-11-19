@@ -1,0 +1,44 @@
+Open Data Project
+
+Deliverables:
+Data(tableua workbooks, files, where to get data) Get second data set from when GooseGame made it to the top ten, maybe another for each game on release to see if it was a slow burn or a sudden flash fire 
+
+Project Report:
+(Word/PDF includes the following, 
+The questions min 3 you asked data, 
+the queriy equivilents(tableau sheets) Give breif explanation of query "If you're using something that does not explicitly use SQL queries (like Tableau), just include the relevant files for the application with a brief description of each "query" (or equivalent) that application is doing on your behalf.",
+References for data sources
+Charts, graphics visualizations for elements of you data (min 2 more prefered)
+The conclusion reached 
+
+Presentiation:
+Overlap no worries 
+Can be pre recorded 
+Can be submitted as a video file or PPT
+May be done via teams 
+
+
+__________________________________________________________________________________________________________________________________________________________________________________
+
+Open data Project todo:
+
+Data sourcing, one file procured maybe another at a later time https://steamdb.info 
+Data conversion and management in tableau underway
+
+Generate Sheets based on questions and Data
+
+ 
+
+Question Generation:
+What is Goose game and what propelled this unknown game into the top 10 for highest concurrent players?
+Is there a common Genre in the top 10?
+Is there a commonality in how these games attracted thier player base?
+What was happening when these games achieved thier rank?
+Are any games that were in the top 10 reaching the top ten at all post peak?
+What percentage of players are on steam to begin with?
+
+After sheets are generated explain how they are "querying" the data.
+
+
+Project report (2 graphics)
+Project Presentation (Use report to build out poresentation)
