@@ -1,0 +1,556 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0805.0415                               -->
+<workbook original-version='18.1' source-build='2023.2.1 (20232.23.0805.0415)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='chart (2)' inline='true' name='federated.04de9lo1ggp5w01d2wpc306ux3rb' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='chart (2)' name='textscan.1x64xsf0w672e015qghlg05l7bx3'>
+            <connection class='textscan' directory='C:/Users/jayde/Downloads' filename='chart (2).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1x64xsf0w672e015qghlg05l7bx3' name='chart (2).csv' table='[chart (2)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='datetime' name='DateTime' ordinal='0' />
+            <column datatype='real' name='Dota 2' ordinal='1' />
+            <column datatype='real' name='Counter-Strike 2' ordinal='2' />
+            <column datatype='real' name='PUBG: BATTLEGROUNDS' ordinal='3' />
+            <column datatype='real' name='Hogwarts Legacy' ordinal='4' />
+            <column datatype='real' name='New World' ordinal='5' />
+            <column datatype='real' name='Baldur&apos;s Gate 3' ordinal='6' />
+            <column datatype='real' name='Cyberpunk 2077' ordinal='7' />
+            <column datatype='real' name='ELDEN RING' ordinal='8' />
+            <column datatype='real' name='Goose Goose Duck' ordinal='9' />
+            <column datatype='real' name='Lost Ark' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1x64xsf0w672e015qghlg05l7bx3' name='chart (2).csv' table='[chart (2)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='datetime' name='DateTime' ordinal='0' />
+            <column datatype='real' name='Dota 2' ordinal='1' />
+            <column datatype='real' name='Counter-Strike 2' ordinal='2' />
+            <column datatype='real' name='PUBG: BATTLEGROUNDS' ordinal='3' />
+            <column datatype='real' name='Hogwarts Legacy' ordinal='4' />
+            <column datatype='real' name='New World' ordinal='5' />
+            <column datatype='real' name='Baldur&apos;s Gate 3' ordinal='6' />
+            <column datatype='real' name='Cyberpunk 2077' ordinal='7' />
+            <column datatype='real' name='ELDEN RING' ordinal='8' />
+            <column datatype='real' name='Goose Goose Duck' ordinal='9' />
+            <column datatype='real' name='Lost Ark' ordinal='10' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[chart (2).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DateTime</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[DateTime]</local-name>
+            <parent-name>[chart (2).csv]</parent-name>
+            <remote-alias>DateTime</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dota 2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Dota 2]</local-name>
+            <parent-name>[chart (2).csv]</parent-name>
+            <remote-alias>Dota 2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Counter-Strike 2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Counter-Strike 2]</local-name>
+            <parent-name>[chart (2).csv]</parent-name>
+            <remote-alias>Counter-Strike 2</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PUBG: BATTLEGROUNDS</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PUBG: BATTLEGROUNDS]</local-name>
+            <parent-name>[chart (2).csv]</parent-name>
+            <remote-alias>PUBG: BATTLEGROUNDS</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hogwarts Legacy</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hogwarts Legacy]</local-name>
+            <parent-name>[chart (2).csv]</parent-name>
+            <remote-alias>Hogwarts Legacy</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>New World</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[New World]</local-name>
+            <parent-name>[chart (2).csv]</parent-name>
+            <remote-alias>New World</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Baldur&apos;s Gate 3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Baldur&apos;s Gate 3]</local-name>
+            <parent-name>[chart (2).csv]</parent-name>
+            <remote-alias>Baldur&apos;s Gate 3</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Cyberpunk 2077</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Cyberpunk 2077]</local-name>
+            <parent-name>[chart (2).csv]</parent-name>
+            <remote-alias>Cyberpunk 2077</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ELDEN RING</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ELDEN RING]</local-name>
+            <parent-name>[chart (2).csv]</parent-name>
+            <remote-alias>ELDEN RING</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Goose Goose Duck</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Goose Goose Duck]</local-name>
+            <parent-name>[chart (2).csv]</parent-name>
+            <remote-alias>Goose Goose Duck</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Lost Ark</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Lost Ark]</local-name>
+            <parent-name>[chart (2).csv]</parent-name>
+            <remote-alias>Lost Ark</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[Baldur&apos;s Gate 3]' role='measure' type='quantitative' />
+      <column caption='FPS' datatype='real' name='[Calculation_70931721279336449]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MAX([Counter-Strike 2])+MAX([Cyberpunk 2077])+MAX([PUBG: BATTLEGROUNDS])' />
+      </column>
+      <column caption='RPG' datatype='real' name='[Calculation_70931721280880642]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MAX([Hogwarts Legacy])+MAX([ELDEN RING])+MAX([Baldur&apos;s Gate 3])' />
+      </column>
+      <column caption='MMO' datatype='real' name='[Calculation_70931721285586948]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='MAX([Lost Ark])+MAX([New World])' />
+      </column>
+      <column datatype='real' name='[Counter-Strike 2]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Cyberpunk 2077]' role='measure' type='quantitative' />
+      <column caption='Date Time' datatype='datetime' name='[DateTime]' role='dimension' type='ordinal' />
+      <column datatype='real' name='[Dota 2]' role='measure' type='quantitative' />
+      <column caption='Elden Ring' datatype='real' name='[ELDEN RING]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Goose Goose Duck]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Hogwarts Legacy]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Lost Ark]' role='measure' type='quantitative' />
+      <column datatype='real' name='[New World]' role='measure' type='quantitative' />
+      <column caption='Pubg: Battlegrounds' datatype='real' name='[PUBG: BATTLEGROUNDS]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='chart (2).csv' datatype='table' name='[__tableau_internal_object_id__].[chart (2).csv_C3633651D45F45A380F992415C055804]' role='measure' type='quantitative' />
+      <column-instance column='[Baldur&apos;s Gate 3]' derivation='Count' name='[cnt:Baldur&apos;s Gate 3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Counter-Strike 2]' derivation='Count' name='[cnt:Counter-Strike 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cyberpunk 2077]' derivation='Count' name='[cnt:Cyberpunk 2077:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Dota 2]' derivation='Count' name='[cnt:Dota 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Baldur&apos;s Gate 3]' derivation='Max' name='[max:Baldur&apos;s Gate 3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Counter-Strike 2]' derivation='Max' name='[max:Counter-Strike 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cyberpunk 2077]' derivation='Max' name='[max:Cyberpunk 2077:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Dota 2]' derivation='Max' name='[max:Dota 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Baldur&apos;s Gate 3]' derivation='Sum' name='[sum:Baldur&apos;s Gate 3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Counter-Strike 2]' derivation='Sum' name='[sum:Counter-Strike 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Cyberpunk 2077]' derivation='Sum' name='[sum:Cyberpunk 2077:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Dota 2]' derivation='Sum' name='[sum:Dota 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_70931721279336449]' derivation='User' name='[usr:Calculation_70931721279336449:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_70931721280880642]' derivation='User' name='[usr:Calculation_70931721280880642:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_70931721285586948]' derivation='User' name='[usr:Calculation_70931721285586948:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[cnt:Counter-Strike 2:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[max:Counter-Strike 2:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[sum:Counter-Strike 2:qk]&quot;</bucket>
+            </map>
+            <map to='#5500ff'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[max:Dota 2:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[usr:Calculation_70931721279336449:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[cnt:Cyberpunk 2077:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[max:Cyberpunk 2077:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[sum:Cyberpunk 2077:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[cnt:Baldur&apos;s Gate 3:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[max:Baldur&apos;s Gate 3:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[sum:Baldur&apos;s Gate 3:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[cnt:Dota 2:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[sum:Dota 2:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[usr:Calculation_70931721280880642:qk]&quot;</bucket>
+            </map>
+            <map to='#ff00ff'>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[usr:Calculation_70931721285586948:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='chart (2).csv' id='chart (2).csv_C3633651D45F45A380F992415C055804'>
+            <properties context=''>
+              <relation connection='textscan.1x64xsf0w672e015qghlg05l7bx3' name='chart (2).csv' table='[chart (2)#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='datetime' name='DateTime' ordinal='0' />
+                  <column datatype='real' name='Dota 2' ordinal='1' />
+                  <column datatype='real' name='Counter-Strike 2' ordinal='2' />
+                  <column datatype='real' name='PUBG: BATTLEGROUNDS' ordinal='3' />
+                  <column datatype='real' name='Hogwarts Legacy' ordinal='4' />
+                  <column datatype='real' name='New World' ordinal='5' />
+                  <column datatype='real' name='Baldur&apos;s Gate 3' ordinal='6' />
+                  <column datatype='real' name='Cyberpunk 2077' ordinal='7' />
+                  <column datatype='real' name='ELDEN RING' ordinal='8' />
+                  <column datatype='real' name='Goose Goose Duck' ordinal='9' />
+                  <column datatype='real' name='Lost Ark' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='chart (2)' name='federated.04de9lo1ggp5w01d2wpc306ux3rb' />
+          </datasources>
+          <datasource-dependencies datasource='federated.04de9lo1ggp5w01d2wpc306ux3rb'>
+            <column datatype='real' name='[Baldur&apos;s Gate 3]' role='measure' type='quantitative' />
+            <column caption='FPS' datatype='real' name='[Calculation_70931721279336449]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([Counter-Strike 2])+MAX([Cyberpunk 2077])+MAX([PUBG: BATTLEGROUNDS])' />
+            </column>
+            <column caption='RPG' datatype='real' name='[Calculation_70931721280880642]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([Hogwarts Legacy])+MAX([ELDEN RING])+MAX([Baldur&apos;s Gate 3])' />
+            </column>
+            <column caption='MMO' datatype='real' name='[Calculation_70931721285586948]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='MAX([Lost Ark])+MAX([New World])' />
+            </column>
+            <column datatype='real' name='[Counter-Strike 2]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Cyberpunk 2077]' role='measure' type='quantitative' />
+            <column caption='Date Time' datatype='datetime' name='[DateTime]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Dota 2]' role='measure' type='quantitative' />
+            <column caption='Elden Ring' datatype='real' name='[ELDEN RING]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Hogwarts Legacy]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Lost Ark]' role='measure' type='quantitative' />
+            <column datatype='real' name='[New World]' role='measure' type='quantitative' />
+            <column caption='Pubg: Battlegrounds' datatype='real' name='[PUBG: BATTLEGROUNDS]' role='measure' type='quantitative' />
+            <column-instance column='[Dota 2]' derivation='Max' name='[max:Dota 2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DateTime]' derivation='Month-Trunc' name='[tmn:DateTime:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_70931721279336449]' derivation='User' name='[usr:Calculation_70931721279336449:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_70931721280880642]' derivation='User' name='[usr:Calculation_70931721280880642:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_70931721285586948]' derivation='User' name='[usr:Calculation_70931721285586948:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.04de9lo1ggp5w01d2wpc306ux3rb].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[max:Dota 2:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[usr:Calculation_70931721279336449:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[usr:Calculation_70931721285586948:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[usr:Calculation_70931721280880642:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.04de9lo1ggp5w01d2wpc306ux3rb].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[max:Dota 2:qk]&quot;</bucket>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[usr:Calculation_70931721279336449:qk]&quot;</bucket>
+              <bucket>&quot;[federated.04de9lo1ggp5w01d2wpc306ux3rb].[usr:Calculation_70931721280880642:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.04de9lo1ggp5w01d2wpc306ux3rb].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.04de9lo1ggp5w01d2wpc306ux3rb].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.04de9lo1ggp5w01d2wpc306ux3rb].[Multiple Values]</rows>
+        <cols>[federated.04de9lo1ggp5w01d2wpc306ux3rb].[tmn:DateTime:qk]</cols>
+      </table>
+      <simple-id uuid='{33A5842A-A91E-4C5A-A4D5-8C168F3B82EE}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.04de9lo1ggp5w01d2wpc306ux3rb].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.04de9lo1ggp5w01d2wpc306ux3rb].[:Measure Names]</field>
+            <field>[federated.04de9lo1ggp5w01d2wpc306ux3rb].[max:Baldur&apos;s Gate 3:nk]</field>
+            <field>[federated.04de9lo1ggp5w01d2wpc306ux3rb].[none:Baldur&apos;s Gate 3:nk]</field>
+            <field>[federated.04de9lo1ggp5w01d2wpc306ux3rb].[none:Cyberpunk 2077:nk]</field>
+            <field>[federated.04de9lo1ggp5w01d2wpc306ux3rb].[none:Goose Goose Duck:nk]</field>
+            <field>[federated.04de9lo1ggp5w01d2wpc306ux3rb].[yr:DateTime:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{39B7221D-2CB3-4E42-B471-F7D3BD12EAF7}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      TYwdoK29nd0TWdrbWpnO6BbAIsDylQMUspILtJDS49DSwazd+ZqawbH8hA61DHM5q5aKcN/X
+      4U++X9ucIoDTtug/h2353SOPL3gPPPef8K7rj7y2+3k9vol31bQalecCnXt+DebSRM2kk/Da
+      kzoVwTDh1cf1vP8bJXp1N+On39LdmXfdUHkQ/OQbcMGVeixxMm18u14tfuendV1LBfjmH0DP
+      qfDH36tt10imQRvUT26FXz0Ag7+A3lPhFz+Cj//L7Pd1rtQHU3Zap0psvhKWnzb7fW90cA88
+      fy/8//tP/iWPoShE2/RaQf8G+K+b4c0f0esHP/8BbHlfDT9M1Zht27UuUrxBMavUFy9TqpBR
+      6j//Tqmbr9GPj+ex7yr1qY1KZaeU2v2CUl+9UinnqK/oVw8q9cjtSrmufu46Sj19l1J/dqlS
+      g8/W+19yYsMv6zo8dJtSX7hYqXJJ/xs/d5FSM+O1+xy5S2QDevwOmBqFd15/ZC79RGfpfBqs
+      LLQu0++94wboOx0uvUanK3z5ct2FuvpGfba983OQmYIPfBmirSfv33Q8hQx87zO61TrrLfq1
+      J74Pyb1w5Wdq8xkSAIuUXYZyUc+fH8114G8uh098Z37z8sUsfO298J7P6tXYeBec+Wb4xw/D
+      yjN11+OqLxw/5WExKBXgL94GX3pMB261ZCFskXrgFrj9k8e+ZuXgrr/Qffj5DkxDUbjuW/Dd
+      63UAXHoNdK+B3/5TvXJ81Z8t3oMfdIr3qnP01i+gxwXZqfmXJy3AIpQah6+/T5/tP/+g/tIn
+      R+GmD+kB4GW/z7zn9Q/btx1QOp+/0ex+Dh78J/jNP4JbPwKxdvjTuyAY0j+3S3rTrolhCIbh
+      vX8OvhNM90gLsEhkp/Xct5XTmZSXf1Kvlg5v1T9/9HZ4x8fh7R+r/uAH3Yo04sEPsGoTjL4K
+      t12n1ygu/F349v+FYk7/+fp7dRBc/EGdHrL1oROXJdOgi8TT/6YD4N6v65yZD35VX3D+wv3Q
+      f7ZOKf6tP17oWi4OhgHv+Rx09kPXKugc0GsdN75bXxb6ns/BGZfp9/7Op+DOz8LZv3H8suYU
+      AOVijr2j4/R2tzMxkyMeNrFUUOcCOTZxyQWat1/9BD78j5Do1l+izw+nbtF5OK89CSs36P67
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
