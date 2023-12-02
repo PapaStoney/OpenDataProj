@@ -22417,6 +22417,13 @@
   </datasources>
   <worksheets>
     <worksheet name='Steam Users January 13 2018'>
+      <layout-options>
+        <caption>
+          <formatted-text>
+            <run>Here I am showing the Max. Users, Max.Users.In-game, and the Max.Users.Pubg for January 13, 2018. This was the day PUBG achieved its record player count. Im showing it in reference to in-game players and total users. </run>
+          </formatted-text>
+        </caption>
+      </layout-options>
       <table>
         <view>
           <datasources>
